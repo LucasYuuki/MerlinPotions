@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Merlin's Potions</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="estilo-teste.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	</head>
+
+	<body>
+	  <main>
+
+	    <h1 class="titulo-principal">Merlin's Potions</h1>
+			<h2>Fine potions since 1026</h2>
+
+		<div class="search">
+		<input type="text" placeholder="Search our stock">
+		</div>
+
+		<div class="menu">
+		  <a href="#Potions">Potions</a>
+		  <a href="#Ingredients">Ingredients</a>
+		  <a href="#Books">Books</a>
+			<a href="#Supplies">Supplies</a>
+			<a href="#Charms">Charms</a>
+			<a href="#Clearence">Clearence!</a>
+			<a id="entrar" href="#Sing in">Sing in or Sing up</a>
+		</div>
+
+		<div>
+		<p class="promo">Free Shipping on orders over R$50</p>
+		</div>
+		<p class="compras">Bag:</p>
+		<p class="porções">Potions</p>
+
+
+				<form runat="server">
+					<p>
+						<a href="js:void(0)" onclick="Abrir();"><img class="p1" src="aging-potion.png" alt="porção"></a>
+					</p>
+					<div id="box" class="caixa">
+						<a href="detalhes:void(0)" onclick="Fechar();"><img class="des1" src="aging-potion.png" alt="porção"></a>
+					</div>
+					<div id="fd" class="sobre"></div>
+				</form>
+				<p id="ppoções">Aging potion</p>
+
+				<form runat="server">
+					<p>
+						<a href="js:void(0)" onclick="Abrir();"><img class="p2" src="bulgeye-potion.png" alt="porção"></a>
+					</p>
+					<div id="box" class="caixa">
+						<a href="detalhes:void(0)" onclick="Fechar();"><img class="des2" src="bulgeye-potion.png" alt="porção"></a>
+					</div>
+					<div id="fd" class="sobre"></div>
+				</form>
+
+				<!-- <img class="p2" src="bulgeye-potion.png" alt="porção"> -->
+				<p id="spoções">Bulgeye potion</p>
+
+				<img class="p3"src="dragon-tonic.png" alt="porção">
+				<p id="tpoções">Dragon tonic</p>
+
+				<img class="p4"src="love-potion.png" alt="porção">
+				<p id="qpoções">Love potion</p>
+
+				<img class="p5" src="polyjuice-potion.png" alt="porção">
+				<p id="upoções">Polyjuice potion</p>
+
+				<img class="p6" src="sleeping-draught.png" alt="porção">
+				<p id="xpoções">Sleeoing draught</p>
+
+	  </main>
+
+		 <footer id="rodape-pagina">
+			<p id="contato1">Company returns</p>
+			<p id="contato2">Contact us carrer</p>
+			<p id="contato3">Shipping</p>
+		  <p id="rodape">&copy; Merlin's Potions. All Rights Reserved</p>
+		</footer>
+
+		<script src="js/java.js"></script>
+	</body>
+</html>

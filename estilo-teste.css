@@ -1,0 +1,259 @@
+h1{
+  color: #FA5858;
+  font-family: "Oswald";
+  font-size: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+h2{
+  font-size: 18px;
+  font-family: "Droid Sans";
+  font-style: italic;
+  color: #4B088A;
+  position: absolute;
+  top: 45px;
+  left:30px;
+}
+
+#rodape-pagina{
+  background-color: #BDBDBD;
+  color:#848484;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: auto auto;
+  padding: 60px;
+}
+.p1{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 300px;
+  left: 200px;
+}
+.des1{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+.p2{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 300px;
+  left: 550px;
+}
+.des2{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 60px;
+  left: 30px;
+}
+.p3{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 300px;
+  right: 200px;
+}
+.p4{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 600px;
+  left: 200px;
+}
+.p5{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 600px;
+  left: 550px;
+}
+.p6{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 600px;
+  right: 200px;
+}
+#ppoções{
+  position: absolute;
+  top: 430px;
+  left: 238px;
+  font-family: "Oswald";
+}
+#spoções
+{
+  position: absolute;
+  top: 430px;
+  left: 580px;
+  font-family: "Oswald";
+}
+#tpoções{
+  position: absolute;
+  top: 430px;
+  right: 238px;
+  font-family: "Oswald";
+}
+#qpoções{
+  position: absolute;
+  top: 730px;
+  left: 238px;
+  font-family: "Oswald";
+}
+#upoções{
+  position: absolute;
+  top: 730px;
+  left: 580px;
+  font-family: "Oswald";
+}
+#xpoções{
+  position: absolute;
+  top: 730px;
+  right: 220px;
+  font-family: "Oswald";
+}
+main{
+  padding-bottom: 900px;
+}
+.menu {
+    background-color: #4B088A;
+    overflow: hidden;
+    position: relative;
+    top: 90px;
+    clear: both;
+}
+
+.menu a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: relative;
+    left: 20px;
+}
+
+.menu a:hover {
+    background-color: #4C0B5F;
+}
+#entrar{
+  position: absolute;
+  left: 1000px;
+}
+.search input[type=text] {
+  position: relative;
+  right: 700px;
+  top:30px;
+  float: right;
+  padding: 4px;
+  font-family: "Roboto" sans-serif;
+  font-size: 17px;
+  border:1px solid;
+  border-color: #000000;
+}
+#rodape{
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+}
+#contato1{
+  position: absolute;
+  left: 20px;
+  bottom: 50px;
+  font-family: "Droid Sans", sans-serif;
+  text-transform: uppercase;
+  color: #DF3A01;
+}
+#contato2{
+  position: absolute;
+  left: 200px;
+  bottom: 50px;
+  font-family: "Droid Sans", sans-serif;
+  text-transform: uppercase;
+  color: #DF3A01;
+}
+#contato3{
+  position: absolute;
+  left: 400px;
+  bottom: 50px;
+  font-family: "Droid Sans", sans-serif;
+  text-transform: uppercase;
+  color: #DF3A01;
+}
+.promo{
+  color: #FA5858;
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  font-style: italic;
+}
+.compras{
+  position: absolute;
+  top: 30px;
+  right: 130px;
+  font-family: "Roboto", sans-serif;
+  color: #BDBDBD;
+}
+.porções{
+  position: absolute;
+  top:200px;
+  left: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #1C1C1C;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sobre {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 188%;
+    height: 188%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+.caixa {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 40%;
+    height: 50%;
+    padding: 16px;
+    border: 1px solid #C5D1E2;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
